@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nexo Pergamino</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+    }
+    header, footer {
+      background-color: #1a1a1a;
+      padding: 1em;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+    nav a {
+      margin: 0 1em;
+      color: gold;
+      text-decoration: none;
+    }
+    section {
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2em;
+      justify-content: center;
+    }
+    .producto {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      padding: 1em;
+      border-radius: 10px;
+      max-width: 300px;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    button {
+      background-color: gold;
+      border: none;
+      padding: 0.5em 1em;
+      color: black;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 1em;
+      width: 100%;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8em;
+      margin: 0.5em 0;
+      border-radius: 5px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Nexo Pergamino</h1>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#tienda">Tienda</a>
+    <a href="#sobre">Sobre Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="inicio">
+  <h2>Perfumes árabes de lujo</h2>
+  <p>Descubrí fragancias exóticas y sofisticadas traídas desde el corazón de Oriente Medio.</p>
+</section>
+
+<section id="tienda">
+  <h2>Nuestra Tienda</h2>
+  <div class="productos">
+    <div class="producto">
+      <img src="https://source.unsplash.com/300x300/?arabic,perfume&sig=1" alt="Perfume Árabe 1"/>
+      <h3>Perfume Árabe 1</h3>
+      <p>Fragancia intensa y duradera.</p>
+      <strong>$12.000</strong>
+      <button>Añadir al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="https://source.unsplash.com/300x300/?arabic,perfume&sig=2" alt="Perfume Árabe 2"/>
+      <h3>Perfume Árabe 2</h3>
+      <p>Fragancia intensa y duradera.</p>
+      <strong>$15.000</strong>
+      <button>Añadir al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="https://source.unsplash.com/300x300/?arabic,perfume&sig=3" alt="Perfume Árabe 3"/>
+      <h3>Perfume Árabe 3</h3>
+      <p>Fragancia intensa y duradera.</p>
+      <strong>$18.000</strong>
+      <button>Añadir al carrito</button>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <h2>Sobre Nosotros</h2>
+  <p>En Nexo Pergamino nos apasiona el arte de la perfumería árabe. Seleccionamos las mejores esencias para brindarte una experiencia olfativa única.</p>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <form>
+    <input type="text" placeholder="Nombre" required />
+    <input type="email" placeholder="Correo electrónico" required />
+    <textarea placeholder="Mensaje" rows="5" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Nexo Pergamino. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
